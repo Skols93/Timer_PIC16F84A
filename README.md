@@ -1,11 +1,12 @@
-# Timer_PIC16F84A
+# Timer for hours and minutes with PIC16F84A written in MikroC for PIC (00H:00M)
 
 ## Introduction
+
 Timer with buttons to control Start and Stop position of it.Seven segment displays decoded with BCD decoder and multiplexed to reduce the pin count.
 Multiplexing is done by four displays controlled with transistor BC547.When it counts seconds, minutes and hours the multiplexing will allow 
 the display to display the digits on it with fast refreshing rate.Refreshing rate is done with interrupt depending on timer.
 
-## Functions
+## Functions and variables
 Interrupt is used and implemented by Timer0 for  1ms and detects 1 second while counting 1000 counts.
 Timer calculator program from MikroElektronika allows us to generate code for MikroC for PIC for our Timer0.Great tool to have in other projects.
 
