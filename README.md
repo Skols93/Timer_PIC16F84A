@@ -19,4 +19,25 @@ PORTA is port on which are connected the four common cathodes.MSB is A3, LSB is 
 
 For better refreshing rate of the display use timer that counts 1ms, 2ms or other value.
 
+## Maintainer
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="[https://github.com/natterstefan](https://skols93.github.io/)">
+          <img width="150" height="150" src="[https://github.com/natterstefan.png?v=3&s=150](https://skols93.github.io/stefan.jpg)">
+          </br>
+          Stefan Vasilevski
+        </a>
+        <div>
+          <a href="[https://twitter.com/natterstefan](https://www.instagram.com/_vasilevski_s/)">
+            <img src="" />
+          </a>
+        </div>
+      </td>
+    </tr>
+  <tbody>
+</table>
+
 
