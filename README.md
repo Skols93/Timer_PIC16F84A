@@ -1,4 +1,4 @@
-# Timer for hours and minutes with PIC16F84A written in MikroC for PIC (00H:00M)
+# Timer for hours and minutes with PIC16F84A written in MikroC for PIC (99H:59M)
 
 ## Introduction
 
@@ -12,9 +12,9 @@ Timer calculator program from MikroElektronika allows us to generate code for Mi
 
 CheckButtons() is a function when used is checking for buttons states and starts or stops the timer to count time, or it resets the timer to 00:00(hours:minutes).
 
-digit_no is variable for the digit display selector.In every moment of the code it has 4 values, shifting them and determining the position of the seven segment displays.
+digit_no is variable selector for the digit displays.In every moment of the code it has 4 values, shifting them and determining the position of the seven segment displays.
 
-On PORTB is connected with wires the four bits for the BCD decoder, and the three buttons for starting, stoping and reseting the timer.
+On PORTB are connected with wires the four bits for the BCD decoder, and the three buttons for starting, stoping and reseting the timer.
 
 PORTA is port on which are connected the four common cathodes.MSB is A3, LSB is A0.
 
@@ -27,12 +27,12 @@ For better refreshing rate of the display use timer that counts 1ms, 2ms or othe
     <tr>
       <td align="center">
         <a href="[https://github.com/natterstefan](https://skols93.github.io/)">
-          <img width="150" height="150" src="[https://github.com/natterstefan.png?v=3&s=150](https://skols93.github.io/stefan.jpg)">
+          <img width="150" height="150" src="(https://skols93.github.io/stefan.jpg)">
           </br>
           Stefan Vasilevski
         </a>
         <div>
-          <a href="[https://twitter.com/natterstefan](https://www.instagram.com/_vasilevski_s/)">
+          <a href="(https://www.instagram.com/_vasilevski_s/)">
             <img src="" />
           </a>
         </div>
